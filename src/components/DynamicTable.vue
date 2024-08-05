@@ -14,6 +14,7 @@
           <option v-for="type in dataTypes" :key="type" :value="type">{{ type }}</option>
         </select>
       </div>
+      
       <button @click="createTable">Create Table</button>
     </div>
     <div v-else>
